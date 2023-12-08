@@ -1,0 +1,16 @@
+{
+  "batch_size": 100, 
+  "duration": 60, 
+  "camera_ids": ["camera_1", "camera_2"], 
+  "database": {
+    "name": "video_analytics.db", 
+    "host": "localhost", 
+    "user": "username", 
+    "password": "password" 
+  },
+  "logging": {
+    "level": "INFO", 
+    "file": "video_analytics.log"
+  },
+  "data_path": "data/" 
+}
